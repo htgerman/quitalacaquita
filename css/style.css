@@ -37,8 +37,11 @@
     margin: 0px auto;
 }
 
-#hero-unit{
+.hero-unit{
     padding: 20px;
     font-size: 70%;
-    line-height: 0.75;
+}
+
+.hero-unit ul li{
+    line-height: 20px;
 }
