@@ -38,10 +38,21 @@
 }
 
 .hero-unit{
-    padding: 20px;
-    font-size: 70%;
+    padding: 15px;
+    font-size: 80%;
 }
 
 .hero-unit ul li{
-    line-height: 20px;
+    line-height: 15px;
+}
+
+.hero-unit h4{
+    padding: 15px;
+    color: #006600;
+}
+
+.highlight{
+    font-weight: bold;
+    color: #990000;
+
 }
