@@ -47,12 +47,17 @@
 }
 
 .hero-unit h4{
-    padding: 10px;
+    margin: 10px;
     color: #006600;
 }
 
 .highlight{
     font-weight: bold;
     color: #990000;
+}
+
+#footer{
+    color: white;
+    background-color: #006600;
 
 }
