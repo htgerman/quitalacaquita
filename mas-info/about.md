@@ -12,4 +12,5 @@ Así nos occurió la idea de ofrecer el servicio "bolsitas de caquita a casa". A
 
 
 [title: Quienes Somos]: /
+[type: mas-info]: /
 
