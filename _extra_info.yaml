@@ -1,5 +1,5 @@
 [
-blog_root: "dropbox:telegram/quitalacaquita/blog_posts",
+blog_root: "dropbox:/telegram/quitalacaquita/blog_posts",
 site_title: "Quita la Caquita",
 has_blog: true,
 external_link: [
