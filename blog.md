@@ -1,5 +1,5 @@
 title: Blog
-order: 30
+order: 50
 show-if: has_blog
 
 <div class="page-header">
