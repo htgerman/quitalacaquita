@@ -47,7 +47,7 @@
 }
 
 .hero-unit h4{
-    margin: 10px;
+    margin: 0px;
     color: #006600;
 }
 
@@ -58,6 +58,7 @@
 
 #footer{
     color: white;
+    font-size: 80%;
     background-color: #006600;
 
 }
