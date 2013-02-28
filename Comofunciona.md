@@ -16,5 +16,5 @@ Es muy fácil:
 
 
 
-[title: Quienes Somos]: /
+[title: Como Funciona]: /
 [order: 20]: /
