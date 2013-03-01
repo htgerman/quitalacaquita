@@ -30,7 +30,11 @@
         <div class="container">
             <a data-lift="site.name" class="brand" href="/">Telegram</a>
             <ul class="nav">
-                <li data-lift="menu.items?group=main"><a href="#">Home</a></li>
+                <lift:xmenu locgroup="main" active_class="active">
+                   <li menu:class="active">
+                       <a menu:href="index"><span><menu:item /></span></a>
+                   </li>
+                </lift:xmenu>
             </ul>
         </div>
     </div>
