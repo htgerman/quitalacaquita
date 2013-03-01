@@ -17,5 +17,6 @@ Es muy fácil:
 
 
 [title: Como Funciona]: /
+[menu: Como Funciona]: /
 [menu-locgroup: main]: /
 [order: 20]: /

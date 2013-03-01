@@ -4,10 +4,11 @@
         <div class="span3">
             <h4>Cómo funciona</h4>
             <ul>
-                <li><a href="/mas-info/about">Quienes Somos</a></li>
-                <li><a href="#">Nuestras Bolsas</a></li>
-                <li><a href="#">Que Recibes</a></li>
-                <li><a href="#">Métodos de Pago</a></li>
+                <lift:xmenu locgroup="footer1" active_class="active">
+                   <li menu:class="active">
+                       <a menu:href="index"><span><menu:item /></span></a>
+                   </li>
+                </lift:xmenu>
             </ul>
         </div>
         <div class="span3">
