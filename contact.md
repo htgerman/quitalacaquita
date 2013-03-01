@@ -6,4 +6,5 @@
 
 
 [title: Contacto]: /
+[menu-locgroup: main]: /
 [order: 60]: /
