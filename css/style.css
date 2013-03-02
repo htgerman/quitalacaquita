@@ -56,6 +56,15 @@
     color: #990000;
 }
 
+.centered{
+    text-align: center;
+}
+
+.centered img{
+    display: block;
+    margin: 0px auto;
+}
+
 #footer{
     color: white;
     font-size: 80%;
