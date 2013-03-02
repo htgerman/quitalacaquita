@@ -5,7 +5,7 @@ order: 50
 show-if: has_blog
 
 <div class="page-header">
-	<h2>Nuestro Blog</h2><a href="http://feeds.feedburner.com/QuitaLaCaquita"><img src="/images/Rss-icon.png" alt="quitalacaquita rss feed" title="Suscribir" /></a>
+	<h2>Nuestro Blog</h2><a class="pull-right" href="http://feeds.feedburner.com/QuitaLaCaquita"><img src="/images/Rss-icon.png" alt="quitalacaquita rss feed" title="Suscribir" /></a>
 </div>
 
 <div class="row-fluid">
