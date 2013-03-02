@@ -15,7 +15,7 @@ show-if: has_blog
             <div data-lift="blog.simple"></div>
         </div>
     </div>
-    <div class="span4>
+    <div class="span4">
         <h4>Entradas Anteriores</h4>
         <div data-lift="archived_posts">
         <div name="year-block">
