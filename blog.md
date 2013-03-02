@@ -1,4 +1,6 @@
 title: Blog
+menu: Blog
+menu-locgroup: main
 order: 50
 show-if: has_blog
 

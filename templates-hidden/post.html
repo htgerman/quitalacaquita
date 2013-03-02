@@ -25,9 +25,12 @@
     <div class="navbar-inner">
         <div class="container">
             <ul class="nav">
-                <li data-lift="menu.items"><a href="#">Home</a></li>
+                <lift:xmenu locgroup="main" active_class="active">
+                   <li menu:class="active">
+                       <a menu:href="index"><span><menu:item /></span></a>
+                   </li>
+                </lift:xmenu>
             </ul>
-	    <form data-lift="search" style="float: right"></form>
         </div>
     </div>
 </div>
@@ -45,8 +48,21 @@
                 <div id="content">Content goes here</div>
             </div>
 	    <div id="right_side">
-	      <!-- blank... but we can layout stuff here -->
-	    </div>
+	        <div data-lift="archived_posts">
+                <div name="year-block">
+                    <h2 name="year">1999</h2>
+                    <div name="month-block">
+                        <h3 name="month">Febtember</h3>
+                        <ul>
+                            <li name="post-block">
+                            <span name="post-date">sometime</span>
+                            »
+                            <a name="post-title" href="#">Something fun</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+	        </div>
         </div>
     </div>
 
