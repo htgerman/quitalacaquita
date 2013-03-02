@@ -25,7 +25,7 @@ show-if: has_blog
     </div>
     <div class="span4">
         <div><a class="pull-right" href="http://feeds.feedburner.com/QuitaLaCaquita"><img src="/images/Rss-icon.png" alt="quitalacaquita rss feed" title="Suscribir" /></a></div>
-        <h3>Entradas Anteriores</h3>
+        <h3>Archivo</h3>
         <div data-lift="archived_posts">
         <div name="year-block">
             <h2 name="year">1999</h2>
