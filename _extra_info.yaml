@@ -2,6 +2,7 @@
 blog_root: "dropbox:/telegram/quitalacaquita/blog_posts",
 site_title: "Quita la Caquita",
 has_blog: true,
+global-locale: es_ES,
 external_link: [
 url: "dropbox:/telegram/quitalacaquita"
 ]
