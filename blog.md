@@ -12,7 +12,15 @@ show-if: has_blog
     <div class="span8">
         <span data-lift="if?extra_true=has_blog">Bienvenido a nuestro blog. Aquí publicamos noticias y otras cositas que nos gustan:</span>
         <div data-lift="if?extra_true=has_blog">
-            <div data-lift="blog.simple"></div>
+           <ul data-lift="blog.posts?max=15">
+               <li data-post="item">
+                   <h2><a data-post="link" href="#">Blog Post</a></h2>
+                <h4><span data-post="date">2012/12/14</span></h4>
+                <div data-post="shortcontent">Post Content goes here</div>
+                <div data-post="more"><a href="#">Leer más ...</a></div>
+               </li>
+           </ul>
+
         </div>
     </div>
     <div class="span4">
