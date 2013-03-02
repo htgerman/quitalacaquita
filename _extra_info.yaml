@@ -3,7 +3,6 @@ blog_root: "dropbox:/telegram/quitalacaquita/blog_posts",
 site_title: "Quita la Caquita",
 has_blog: true,
 global-locale: es_ES,
-rss_url: http://feeds.feedburner.com/QuitaLaCaquita,
 external_link: [
 url: "dropbox:/telegram/quitalacaquita"
 ]
