@@ -15,13 +15,25 @@
     <link type="text/css" href="/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link type="text/css" href="/css/style.css" rel="stylesheet"/>
 
+    <!-- Share buttons -->
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
+
+    <!-- Shadowbox -->
+    <link rel="stylesheet" type="text/css" href="/shadowbox/shadowbox.css">
+    <script type="text/javascript" src="/shadowbox/shadowbox.js"></script>
+    <script type="text/javascript">
+    Shadowbox.init();
+    </script>
+
 </head>
 
 <body>
 <div data-lift="BootstrapUtil.bodyComment"></div>
 
 <div class="navbar navbar-fixed-top">
-    <div><img src="/images/dalmatians.jpg"></div>
+    <div id="header-img"><img src="/images/dalmatians.jpg"></div>
     <div class="navbar-inner">
         <div class="container">
             <ul class="nav">
@@ -43,11 +55,13 @@
         <div class="page-header" id="page_header">
 	  <!-- if you've got a header, put it here -->
         </div>
-        <div id="main_content_place">
-            <div id="left_side">
+
+        <div id="main_content_place" class="row-fluid">
+            <div id="left_side" class="span8">
                 <div id="content">Content goes here</div>
             </div>
-	    <div id="right_side">
+	    <div id="right_side" class="span4">
+            <h4>Entradas Anteriores</h4>
 	        <div data-lift="archived_posts">
                 <div name="year-block">
                     <h2 name="year">1999</h2>
