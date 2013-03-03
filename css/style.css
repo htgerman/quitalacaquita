@@ -42,6 +42,10 @@
     font-size: 80%;
 }
 
+.hero-unit p{
+    line-height: 20px;
+}
+
 .hero-unit ul li{
     line-height: 20px;
 }
