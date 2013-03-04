@@ -20,7 +20,7 @@ Es muy fácil:
 	</p>
 </form>
 
-<a href='https://www.2checkout.com/checkout/purchase?sid=1964124&quantity=1&product_id=1'>Suscribir</a>
+<a href="https://www.2checkout.com/checkout/purchase?sid=1964124&quantity=1&product_id=1">Suscribir</a>
 
 <p>2CheckOut.com Inc. (Ohio, USA) is a payment facilitator for goods and services provided by Quita la Caquita.</p>
 
