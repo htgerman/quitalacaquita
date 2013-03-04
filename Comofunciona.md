@@ -16,11 +16,13 @@ Es muy fácil:
 
 <form action='https://www.2checkout.com/checkout/purchase' method='post'>
 	<p>
-		<input name='submit' type='button' value='Suscribir'>
+		<input name='submit' type='submit' value='Suscribir'>
 	</p>
 </form>
-<p>2CheckOut.com Inc. (Ohio, USA) is a payment facilitator for goods and services provided by Quita la Caquita.</p>
 
+<a href='https://www.2checkout.com/checkout/purchase?sid=1964124&quantity=1&product_id=1'>Suscribir</a>
+
+<p>2CheckOut.com Inc. (Ohio, USA) is a payment facilitator for goods and services provided by Quita la Caquita.</p>
 
 [title: Como Funciona]: /
 [menu: Como Funciona]: /
