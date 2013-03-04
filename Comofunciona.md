@@ -14,6 +14,12 @@ Es muy fácil:
     - Con las bolsas bio-degradables cuidas el medioambiente
 
 
+<form action='https://www.2checkout.com/checkout/purchase' method='post'>
+	<p>
+		<input name='submit' type='button' value='Suscribir'>
+	</p>
+</form>
+<p>2CheckOut.com Inc. (Ohio, USA) is a payment facilitator for goods and services provided by Quita la Caquita.</p>
 
 
 [title: Como Funciona]: /
