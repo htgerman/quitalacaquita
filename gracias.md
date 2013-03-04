@@ -9,7 +9,7 @@
         <p><span class="highlight">Síguenos</span></p>
     </div>
     <div class="well span4 centered">
-        <img src="/images/dog_phone.jpg" alt="Quita la caquita - contaco"><hr />
+        <img class="img-polaroid" title="Llámanos"  src="images/dog_phone.jpg" alt="Quita la Caquita - contacto" /><hr />
         <h4>Llámanos</h4>
         <div class="highlight">958 99 11 02</div>
     </div>
