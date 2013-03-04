@@ -1,4 +1,4 @@
-## Cómo Funciona
+### Cómo Funciona
 
 Es muy fácil:
 

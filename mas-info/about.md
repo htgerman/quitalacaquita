@@ -1,4 +1,4 @@
-## Quienes Somos
+### Quienes Somos
 
 <div class="row-fluid">
     <div class="span5">
