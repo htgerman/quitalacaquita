@@ -8,7 +8,7 @@
 
     </div>
     <div class="well span4 centered">
-        <img class="img-polaroid" title="Llámanos"  src="images/dog_phone.jpg" alt="Quita la Caquita - contacto" /><hr />
+        <img title="Llámanos"  src="images/dog_phone.jpg" alt="Quita la Caquita - contacto" /><hr />
         <h4>Llámanos</h4>
         <div class="highlight">958 99 11 02</div>
     </div>
