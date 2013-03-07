@@ -28,24 +28,6 @@
     Shadowbox.init();
     </script>
 
-    <!-- fix anchor link positions to take header into account-->
-    <script>
-        function detectHash() {
-          function maybeScrollToHash() {
-            if (window.location.hash && $(window.location.hash).length) {
-              var newTop = $(window.location.hash).offset().top - 110;
-              $(window).scrollTop(newTop);
-            }
-          }
-
-          $(window).bind('hashchange', function() {
-            maybeScrollToHash();
-          });
-
-          maybeScrollToHash();
-        }
-
-    </script>
 </head>
 
 <body>

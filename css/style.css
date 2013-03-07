@@ -34,12 +34,13 @@
         border: 0;
         }
 
-#top {
-    border-top:110px solid transparent;
-    margin-top:-110px;
-    -webkit-background-clip:padding-box;
-    -moz-background-clip:padding;
-    background-clip:padding-box;
+/*Fixing anchor link position in comofunciona*/
+#paso1:before, #paso2:before, #paso3:before {
+  display: block;
+  content: " ";
+  margin-top: -110px;
+  height: 110px;
+  visibility: hidden;
 }
 
 
