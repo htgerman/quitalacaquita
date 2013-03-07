@@ -106,7 +106,7 @@ var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
     function detectHash() {
       function maybeScrollToHash() {
         if (window.location.hash && $(window.location.hash).length) {
-          var newTop = $(window.location.hash).offset().top - $('.navbar').height();
+          var newTop = $(window.location.hash).offset().top - 110;
           $(window).scrollTop(newTop);
         }
       }
