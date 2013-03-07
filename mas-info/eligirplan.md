@@ -16,6 +16,7 @@
         <p class="centered"><a href="/apuntarse" class="btn btn-primary btn-large">¡Apúntate!</a></p>
     </div>
     <div class="span3">
+        <h4>Preguntas Frequentes</h4>
         <ul id="faq" class="nav nav-pills nav-stacked">
                 <lift:xmenu locgroup="faq" active_class="active">
                    <li menu:class="active">
