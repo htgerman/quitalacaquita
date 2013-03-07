@@ -34,8 +34,8 @@
         border: 0;
         }
 
-/*Fixing anchor link position in comofunciona*/
-#paso1:before, #paso2:before, #paso3:before {
+/*Fixing anchor link position in comofunciona and forms*/
+#paso1:before, #paso2:before, #paso3:before, #top:before {
   display: block;
   content: " ";
   margin-top: -110px;
