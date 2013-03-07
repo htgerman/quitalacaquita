@@ -28,7 +28,24 @@
     Shadowbox.init();
     </script>
 
+    <!-- fix anchor link positions to take header into account-->
+    <script>
+        function detectHash() {
+          function maybeScrollToHash() {
+            if (window.location.hash && $(window.location.hash).length) {
+              var newTop = $(window.location.hash).offset().top - 110;
+              $(window).scrollTop(newTop);
+            }
+          }
 
+          $(window).bind('hashchange', function() {
+            maybeScrollToHash();
+          });
+
+          maybeScrollToHash();
+        }
+
+    </script>
 </head>
 
 <body>
@@ -101,24 +118,7 @@ var options={ "publisher": "6d9e4fbb-c29a-4e93-82e8-9f222fc887c7", "position": "
 var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
 </script>
 
-<!-- fix anchor link positions to take header into account-->
-<script>
-    function detectHash() {
-      function maybeScrollToHash() {
-        if (window.location.hash && $(window.location.hash).length) {
-          var newTop = $(window.location.hash).offset().top - 110;
-          $(window).scrollTop(newTop);
-        }
-      }
 
-      $(window).bind('hashchange', function() {
-        maybeScrollToHash();
-      });
-
-      maybeScrollToHash();
-    }
-
-</script>
 
 </body>
 </html>
