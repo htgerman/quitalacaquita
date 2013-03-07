@@ -8,7 +8,7 @@
         }
 
         #outer-container{
-            margin-top: 110px; /* 40px to make the container go all the way to the bottom of the topbar */
+            padding-top: 110px; /* 110px to make the container go all the way to the bottom of the navbar */
         }
 
         /* The white background content wrapper */
