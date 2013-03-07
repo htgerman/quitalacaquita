@@ -34,13 +34,7 @@
         border: 0;
         }
 
-/*for the form anchor prevent formsmarts forms to jump up below the header*/
-a #top{display: block; position: relative; top: 110px; visibility: hidden;}
 
-/*positioning the anchor links in comofunciona*/
-.anchor-target {
-    position:absolute; top:-110px;
-}
 
 #header-img img{
     display: block;
