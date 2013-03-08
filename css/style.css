@@ -83,6 +83,10 @@
     margin: 0px auto;
 }
 
+th {
+    text-align: left;
+}
+
 #footer{
     color: white;
     font-size: 80%;
