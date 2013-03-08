@@ -1,0 +1,15 @@
+/*Customizing formsmarts forms*/
+
+body{
+    font-family: "Lora", Georgia, "Times New Roman", Times, serif;
+    font-size: 80%;
+}
+
+/*Fixing anchor link position in forms*/
+#instr:before {
+  display: block;
+  content: " ";
+  margin-top: -110px;
+  height: 110px;
+  visibility: hidden;
+}
