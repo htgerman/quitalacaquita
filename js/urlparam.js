@@ -32,6 +32,7 @@ try {
             var value = unescape(cookiearray[i].split('=')[1]);
             if (name == 'source' || name == 'campaign') append = append + (append.length > 0 ? '&' : '') + name + '=' + value;
         }
+        alert(append);
         if (append.length > 0){
             var links = document.getElementsByTagName("a");
             for (var i = 0; i < links.length; i++){
