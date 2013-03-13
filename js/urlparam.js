@@ -20,6 +20,7 @@ try {
                 var srcVal = srcAmpPos != -1 ? srcStr.substring(0, srcAmpPos) : srcStr;
                 var now = new Date(); now.setDate(now.getDate() + 1);
                 document.cookie = params[i] + '=' + escape(srcVal) + ';' + 'expires=' + now.toGMTString() + '; path=/;';
+                alert(params[i] + '=' + escape(srcVal));
             }
         }
     }
@@ -32,7 +33,7 @@ try {
             var value = unescape(cookiearray[i].split('=')[1]);
             if (name == 'source' || name == 'campaign') append = append + (append.length > 0 ? '&' : '') + name + '=' + value;
         }
-        alert(append);
+        
         if (append.length > 0){
             var links = document.getElementsByTagName("a");
             for (var i = 0; i < links.length; i++){
