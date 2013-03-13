@@ -7,11 +7,12 @@
  */
 
 
-<script type="text/javascript">
-<!--
+
+
 try {
     if (window.location.search != null) {
-        var cookie = ''; var params = ['source','campaign'];
+        var cookie = '';
+        var params = ['source','campaign'];
         for (var i = 0; i < params.length; i++){
             var srcPos = window.location.search.indexOf(params[i]);
             if (srcPos != -1) {
@@ -20,7 +21,7 @@ try {
                 var srcVal = srcAmpPos != -1 ? srcStr.substring(0, srcAmpPos) : srcStr;
                 var now = new Date(); now.setDate(now.getDate() + 1);
                 document.cookie = params[i] + '=' + escape(srcVal) + ';' + 'expires=' + now.toGMTString() + '; path=/;';
-                alert(params[i] + '=' + escape(srcVal));
+                
             }
         }
     }
@@ -55,5 +56,5 @@ try {
     }
 
 } catch (e){}
-//-->
-</script>
+
+
