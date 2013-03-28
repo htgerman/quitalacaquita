@@ -34,11 +34,12 @@
         border: 0;
         }
 
-#leonav img{
-   display: block;
-    margin-left: auto;
-   margin-right: auto;
-    margin-bottom: -20px;
+#leonav:before{
+  display: block;
+  content: " ";
+  margin-top: -20px;
+  height: 20px;
+  visibility: hidden;
 }
 
 /*Fixing anchor link position in comofunciona and forms*/
