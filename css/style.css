@@ -36,8 +36,8 @@
 
 #leonav img{
   display: block;
-  margin-bottom: -20px;
-  padding-bottom: -20px;
+  margin-top: 20px;
+  padding-top: 20px;
 }
 
 /*Fixing anchor link position in comofunciona and forms*/
