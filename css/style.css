@@ -34,6 +34,11 @@
         border: 0;
         }
 
+#leonav{
+   display: block;
+    margin: 0px auto;
+}
+
 /*Fixing anchor link position in comofunciona and forms*/
 #paso1:before, #paso2:before, #paso3:before {
   display: block;

@@ -34,17 +34,21 @@
 <div data-lift="BootstrapUtil.bodyComment"></div>
 <div data-lift="google-analytics?id=UA-5781545-10"></div>
 <div class="navbar navbar-fixed-top">
-    <div id="header-img"><img src="/images/dalmatians.jpg"></div>
+    <div id="header-img"><img src="/images/dalmatians.jpg" alt="Quita la Caquita"></div>
     <div class="navbar-inner">
         <div class="container">
-            <img src="/images/Leo_fondo_transparente.png" alt="Quita la Caquita" />
-            <ul class="nav">
-                <lift:xmenu locgroup="main" active_class="active">
-                   <li menu:class="active">
-                       <a menu:href="index"><span><menu:item /></span></a>
-                   </li>
-                </lift:xmenu>
-            </ul>
+            <div class="row-fluid">
+                <div class="span1" id="leonav"><img src="/images/Leo_fondo_transparente.png" alt="Quita la Caquita" /></div>
+                <div class="span11">
+                    <ul class="nav">
+                        <lift:xmenu locgroup="main" active_class="active">
+                           <li menu:class="active">
+                               <a menu:href="index"><span><menu:item /></span></a>
+                           </li>
+                        </lift:xmenu>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
